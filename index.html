@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0c5a38"><title>QVAC — Kenya Public Service Guide</title>
+<link rel="manifest" href="manifest.json"><link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" aria-label="Huduma Guide Kenya home"><span class="mark">Q</span><span><strong>QVAC</strong><small id="brandSub">Government services + offline AI</small></span></a>
+  <div class="top-actions"><span class="offline-pill"><i></i><span id="offlineLabel">Offline-ready</span></span><button id="languageToggle" class="lang" type="button">Kiswahili</button></div>
+</header>
+<main>
+<section class="hero">
+  <p class="eyebrow" id="eyebrow">KENYA · PUBLIC SERVICE KNOWLEDGE CENTRE</p>
+  <h1 id="headline">Know what you need before you go.</h1>
+  <p id="subhead">Find application steps, document checklists and official links for common government services.</p>
+  <div class="search-wrap"><span>⌕</span><input id="search" type="search" placeholder="Search passport, birth certificate, KRA PIN…" autocomplete="off"><button id="clearSearch" aria-label="Clear search">×</button></div>
+  <div class="hero-foot"><span id="countLabel">20+ practical guides</span><span>•</span><span id="langLabel">English</span><span>•</span><span id="offlineStatus">Works from local files</span></div>
+</section>
+<section class="tools">
+  <label class="filter-label"><span id="categoryLabel">Category</span><select id="categoryFilter"><option value="all">All services</option></select></label>
+  <label class="filter-label"><span id="countyLabel">Your county / town</span><input id="locationInput" type="text" placeholder="e.g. Nairobi, Mombasa, Kisumu"></label>
+  <button class="outline-btn" id="whereBtn" type="button">Where should I go?</button>
+</section>
+<section class="section">
+  <div class="section-head"><div><p class="eyebrow dark" id="sectionEyebrow">SERVICE DIRECTORY</p><h2 id="servicesTitle">Browse government services</h2></div><span id="resultCount"></span></div>
+  <div id="serviceGrid" class="grid" aria-live="polite"></div>
+</section>
+
+<section class="ai-panel" id="aiAssistant">
+  <div class="ai-heading">
+    <div><p class="eyebrow dark">QVAC LOCAL AI</p><h2 id="aiTitle">Ask QVAC — offline AI assistant</h2>
+      <p id="aiIntro">Ask about Kenyan government services. Answers use the local guide and run on this computer.</p></div>
+    <span class="ai-chip">ON-DEVICE</span>
+  </div>
+  <div class="ai-status-row"><span id="aiStatus" role="status">AI model not loaded</span><button class="outline-btn" id="loadAiBtn" type="button">Load offline AI model</button></div>
+  <div id="aiProgressWrap" class="ai-progress-wrap hidden"><div class="ai-progress-track"><div id="aiProgressBar"></div></div><small id="aiProgressText">Preparing model…</small></div>
+  <div id="aiChatLog" class="ai-chat-log" aria-live="polite"><div class="ai-message assistant" id="aiWelcome">Hello! Ask me how to apply for an ID, passport, birth certificate, or another service.</div></div>
+  <form id="aiForm" class="ai-form">
+    <textarea id="aiQuestion" rows="2" maxlength="3000" placeholder="Ask a question, e.g. How do I apply for a first ID?" aria-label="Ask QVAC AI"></textarea>
+    <button id="aiSendBtn" type="submit">Ask offline AI</button>
+  </form>
+  <p class="ai-footnote" id="aiFootnote">The first model download requires internet. After it is downloaded, AI inference can run offline. Answers can be wrong; confirm requirements with the official agency.</p>
+</section>
+
+<section class="how">
+  <div><p class="eyebrow dark" id="howEyebrow">HOW TO USE THIS APP</p><h2 id="howTitle">Prepare before you travel</h2></div>
+  <div class="how-grid">
+    <article><b>01</b><h3 id="how1Title">Choose a service</h3><p id="how1Text">Search by the document or service you need.</p></article>
+    <article><b>02</b><h3 id="how2Title">Check your documents</h3><p id="how2Text">Use the checklist, then confirm case-specific requirements from the official source.</p></article>
+    <article><b>03</b><h3 id="how3Title">Confirm the office</h3><p id="how3Text">Check the official agency or Huduma Kenya before travelling; not every service is offered everywhere.</p></article>
+  </div>
+</section>
+<section class="notice"><div class="notice-icon">!</div><div><strong id="noticeTitle">Important: use official sources</strong><p id="noticeText">This is an independent guide, not a government website. Requirements, fees, office locations and timelines can change. Do not pay unofficial agents or share your eCitizen password/OTP.</p></div></section>
+<section class="sources"><h2 id="sourcesTitle">Official starting points</h2><div class="source-links">
+<a href="https://ecitizen.go.ke/" target="_blank" rel="noopener">eCitizen <span>↗</span></a>
+<a href="https://www.hudumakenya.go.ke/" target="_blank" rel="noopener">Huduma Kenya <span>↗</span></a>
+<a href="https://immigration.go.ke/application-requirements/" target="_blank" rel="noopener">Immigration requirements <span>↗</span></a>
+<a href="https://crs.ecitizen.go.ke/" target="_blank" rel="noopener">Civil Registration <span>↗</span></a>
+<a href="https://ntsa.ecitizen.go.ke/" target="_blank" rel="noopener">NTSA services <span>↗</span></a>
+<a href="https://www.kra.go.ke/" target="_blank" rel="noopener">KRA <span>↗</span></a>
+<a href="https://brs.go.ke/" target="_blank" rel="noopener">Business Registration <span>↗</span></a>
+</div></section>
+</main>
+<footer><span>QVAC · Kenya Public Service Guide · Independent public-information guide</span><span id="footerRight">No government applications or payments are submitted here.</span></footer>
+<div id="modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-backdrop" data-close="true"></div><article class="modal-panel"><button id="closeModal" class="close" aria-label="Close">×</button><div id="modalBody"></div></article></div>
+<script src="app.js"></script>
+</body></html>

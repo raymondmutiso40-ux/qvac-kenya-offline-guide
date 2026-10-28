@@ -1,0 +1,63 @@
+{
+  "name": "qvac-kenya-offline-guide",
+  "version": "1.1.0",
+  "description": "QVAC offline-first Kenya public service guide with local AI",
+  "main": "main.cjs",
+  "author": "QVAC",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "electron .",
+    "build:win": "electron-builder --win nsis portable"
+  },
+  "devDependencies": {
+    "electron": "^40.0.0",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "ke.qvac.publicserviceguide",
+    "productName": "QVAC Kenya Guide",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.cjs",
+      "preload.cjs",
+      "index.html",
+      "app.js",
+      "styles.css",
+      "data.json",
+      "manifest.json",
+      "sw.js",
+      "README.md",
+      "SOURCES.md",
+      "package.json",
+      "qvac.config.json"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "nsis",
+          "arch": [
+            "x64"
+          ]
+        },
+        {
+          "target": "portable",
+          "arch": [
+            "x64"
+          ]
+        }
+      ]
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true
+    },
+    "asar": false
+  },
+  "dependencies": {
+    "@qvac/sdk": "0.22.0"
+  }
+}

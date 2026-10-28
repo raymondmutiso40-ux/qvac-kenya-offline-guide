@@ -1,0 +1,1100 @@
+{
+  "appName": "Huduma Guide Kenya",
+  "version": "2.0.0",
+  "languages": [
+    "en",
+    "sw"
+  ],
+  "categories": [
+    "Birth & Death",
+    "Driving & Vehicles",
+    "Education & Documents",
+    "Family & Civil Records",
+    "Identity",
+    "Immigration",
+    "Land & Property",
+    "Police & Justice",
+    "Tax & Business",
+    "Travel",
+    "Where to go"
+  ],
+  "services": [
+    {
+      "id": "national-id-first",
+      "category": "Identity",
+      "icon": "🪪",
+      "title": {
+        "en": "First national identity card",
+        "sw": "Kitambulisho cha taifa cha kwanza"
+      },
+      "summary": {
+        "en": "Guide for an eligible Kenyan applying for a first national ID.",
+        "sw": "Mwongozo kwa Mkenya anayestahili kuomba kitambulisho cha kwanza."
+      },
+      "documents": {
+        "en": [
+          "Birth certificate and any supporting records requested by the registration officer",
+          "Parent/guardian identity details where applicable",
+          "Any additional documents specified by the registration office"
+        ],
+        "sw": [
+          "Cheti cha kuzaliwa na nyaraka za ziada atakazoomba afisa wa usajili",
+          "Taarifa za kitambulisho cha mzazi/mlezi inapohitajika",
+          "Nyaraka nyingine zitakazoelekezwa na ofisi ya usajili"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Confirm current eligibility and required documents with the National Registration Bureau.",
+          "Visit the designated registration office or Huduma Centre if the service is offered there.",
+          "Complete registration and biometric capture as instructed.",
+          "Keep the acknowledgement/reference details for follow-up."
+        ],
+        "sw": [
+          "Thibitisha ustahiki na nyaraka zinazohitajika kwa National Registration Bureau.",
+          "Tembelea ofisi ya usajili iliyoteuliwa au Huduma Centre ikiwa huduma inapatikana hapo.",
+          "Kamilisha usajili na uchukuliwe taarifa za kibayometriki kama utakavyoelekezwa.",
+          "Hifadhi nambari ya kumbukumbu au uthibitisho kwa ajili ya ufuatiliaji."
+        ]
+      },
+      "agency": "National Registration Bureau",
+      "url": "https://www.hudumakenya.go.ke/",
+      "sourceLabel": "Huduma Kenya official service directory",
+      "status": "Verify locally",
+      "note": {
+        "en": "Exact requirements can vary by applicant and registration location. Confirm the current checklist before travelling.",
+        "sw": "Mahitaji yanaweza kutofautiana kulingana na mwombaji na eneo la usajili. Thibitisha orodha ya sasa kabla ya kusafiri."
+      }
+    },
+    {
+      "id": "id-replacement",
+      "category": "Identity",
+      "icon": "🪪",
+      "title": {
+        "en": "Replacement national ID",
+        "sw": "Kubadilisha kitambulisho"
+      },
+      "summary": {
+        "en": "What to check when an ID is lost, damaged, or needs replacement.",
+        "sw": "Mambo ya kuangalia kitambulisho kinapopotea, kuharibika au kuhitaji kubadilishwa."
+      },
+      "documents": {
+        "en": [
+          "Any available copy or details of the previous ID",
+          "Police abstract or other loss documentation if required for the case",
+          "Other identity/supporting documents requested by the registration office"
+        ],
+        "sw": [
+          "Nakala au taarifa zozote za kitambulisho cha awali ikiwa zinapatikana",
+          "Police abstract au nyaraka za kupotea ikiwa zinahitajika kwa hali husika",
+          "Nyaraka nyingine za utambulisho zitakazoombwa na ofisi ya usajili"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Check the current replacement process with the National Registration Bureau or Huduma Kenya.",
+          "Ask which evidence is required for your specific case (lost, damaged, or correction).",
+          "Submit the request at the designated office and follow the issued instructions.",
+          "Keep the acknowledgement for collection or tracking."
+        ],
+        "sw": [
+          "Angalia mchakato wa sasa wa kubadilisha kitambulisho kupitia National Registration Bureau au Huduma Kenya.",
+          "Uliza ushahidi unaohitajika kwa hali yako (kupotea, kuharibika au kusahihisha taarifa).",
+          "Wasilisha ombi katika ofisi iliyoteuliwa na ufuate maelekezo.",
+          "Hifadhi uthibitisho wa kufuatilia au kuchukua kitambulisho."
+        ]
+      },
+      "agency": "National Registration Bureau / Huduma Kenya",
+      "url": "https://www.hudumakenya.go.ke/",
+      "sourceLabel": "Huduma Kenya official portal",
+      "status": "Verify locally",
+      "note": {
+        "en": "Requirements for replacement and data corrections may differ; confirm before paying or travelling.",
+        "sw": "Mahitaji ya kubadilisha na kusahihisha taarifa yanaweza kutofautiana; thibitisha kabla ya kulipa au kusafiri."
+      }
+    },
+    {
+      "id": "passport-first",
+      "category": "Travel",
+      "icon": "🛂",
+      "title": {
+        "en": "First Kenyan passport",
+        "sw": "Pasipoti ya Kenya ya kwanza"
+      },
+      "summary": {
+        "en": "Official guidance for a first-time passport application.",
+        "sw": "Mwongozo rasmi wa kuomba pasipoti kwa mara ya kwanza."
+      },
+      "documents": {
+        "en": [
+          "Duly completed Form 19 and two payment invoices",
+          "Original birth certificate and copy for citizens by birth",
+          "Original national ID and copy for adults",
+          "Parents’ birth certificates and ID copies where required",
+          "Consent form and parents’ ID copies for minors, where applicable",
+          "Prescribed fee payment evidence"
+        ],
+        "sw": [
+          "Fomu 19 iliyojazwa na ankara mbili za malipo",
+          "Cheti halisi cha kuzaliwa na nakala kwa raia kwa kuzaliwa",
+          "Kitambulisho halisi cha taifa na nakala kwa watu wazima",
+          "Vyeti vya kuzaliwa vya wazazi na nakala za vitambulisho pale vinapohitajika",
+          "Fomu ya idhini na nakala za vitambulisho vya wazazi kwa watoto inapohitajika",
+          "Uthibitisho wa malipo ya ada iliyowekwa"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Read the official requirements page and select the correct passport category.",
+          "Apply and pay through the official eCitizen immigration portal.",
+          "Book an appointment through the official process.",
+          "Attend the selected passport processing centre for document submission and biometrics.",
+          "Track progress using the official portal/SMS/email instructions."
+        ],
+        "sw": [
+          "Soma ukurasa rasmi wa mahitaji na uchague aina sahihi ya pasipoti.",
+          "Tuma ombi na ulipe kupitia tovuti rasmi ya uhamiaji ya eCitizen.",
+          "Panga miadi kupitia mchakato rasmi.",
+          "Hudhuria kituo ulichochagua kwa kuwasilisha nyaraka na kuchukuliwa taarifa za kibayometriki.",
+          "Fuatilia maendeleo kupitia maelekezo rasmi ya tovuti/SMS/barua pepe."
+        ]
+      },
+      "agency": "Directorate of Immigration Services",
+      "url": "https://immigration.go.ke/application-requirements/",
+      "applyUrl": "https://dis.ecitizen.go.ke/",
+      "sourceLabel": "Directorate of Immigration Services — Application Requirements",
+      "status": "Official source linked",
+      "note": {
+        "en": "The official requirements page may be updated. Check it again before applying.",
+        "sw": "Ukurasa rasmi wa mahitaji unaweza kusasishwa. Ukague tena kabla ya kutuma ombi."
+      }
+    },
+    {
+      "id": "passport-replacement",
+      "category": "Travel",
+      "icon": "🛂",
+      "title": {
+        "en": "Passport replacement / lost passport",
+        "sw": "Kubadilisha pasipoti / pasipoti iliyopotea"
+      },
+      "summary": {
+        "en": "Requirements vary for replacement, damage, loss, and name changes.",
+        "sw": "Mahitaji hutofautiana kwa kubadilisha, kuharibika, kupotea na kubadilisha majina."
+      },
+      "documents": {
+        "en": [
+          "Completed Form 19 and two payment invoices",
+          "Original national ID and copy for adults",
+          "Previous passport and copy for replacement, if available",
+          "For a lost passport: personal statement, sworn affidavit, police abstract, and bio-data page copy if available",
+          "For a damaged passport: personal statement and supporting sworn affidavit",
+          "For a name change: supporting documents such as deed poll, Gazette notice, or marriage certificate, as applicable"
+        ],
+        "sw": [
+          "Fomu 19 iliyojazwa na ankara mbili za malipo",
+          "Kitambulisho halisi cha taifa na nakala kwa watu wazima",
+          "Pasipoti ya awali na nakala ikiwa inapatikana",
+          "Kwa pasipoti iliyopotea: maelezo binafsi, affidavit, police abstract na nakala ya ukurasa wa taarifa ikiwa inapatikana",
+          "Kwa pasipoti iliyoharibika: maelezo binafsi na affidavit ya kuthibitisha",
+          "Kwa kubadilisha jina: nyaraka kama deed poll, tangazo la Gazette au cheti cha ndoa inapohitajika"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Choose the correct replacement reason on the official immigration guidance.",
+          "Check the current category-specific document list.",
+          "Apply and pay only through the official eCitizen portal.",
+          "Attend the appointment/biometrics process specified by Immigration.",
+          "Keep all receipts and reference details."
+        ],
+        "sw": [
+          "Chagua sababu sahihi ya kubadilisha kwenye mwongozo rasmi wa uhamiaji.",
+          "Angalia orodha ya nyaraka ya aina yako ya ombi.",
+          "Tuma ombi na ulipe kupitia eCitizen rasmi pekee.",
+          "Hudhuria miadi na mchakato wa biometriki utakaoelekezwa na Uhamiaji.",
+          "Hifadhi risiti na nambari za kumbukumbu."
+        ]
+      },
+      "agency": "Directorate of Immigration Services",
+      "url": "https://immigration.go.ke/application-requirements/",
+      "applyUrl": "https://dis.ecitizen.go.ke/",
+      "sourceLabel": "Directorate of Immigration Services — Application Requirements",
+      "status": "Official source linked",
+      "note": {
+        "en": "This guide summarizes categories; use the official page for the final checklist for your exact case.",
+        "sw": "Mwongozo huu unafupisha aina za maombi; tumia ukurasa rasmi kwa orodha ya mwisho ya hali yako."
+      }
+    },
+    {
+      "id": "good-conduct",
+      "category": "Police & Justice",
+      "icon": "📄",
+      "title": {
+        "en": "Certificate of good conduct",
+        "sw": "Cheti cha tabia njema"
+      },
+      "summary": {
+        "en": "Police clearance certificate application guide.",
+        "sw": "Mwongozo wa kuomba cheti cha polisi."
+      },
+      "documents": {
+        "en": [
+          "Valid national ID or other identity document accepted for your applicant category",
+          "Application details and payment confirmation generated by the official portal",
+          "Any additional documents specified by DCI for your category"
+        ],
+        "sw": [
+          "Kitambulisho halali cha taifa au nyaraka nyingine inayokubaliwa kwa aina yako ya mwombaji",
+          "Taarifa za ombi na uthibitisho wa malipo kutoka tovuti rasmi",
+          "Nyaraka nyingine zitakazotajwa na DCI kwa aina yako ya mwombaji"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Open the official DCI/eCitizen service and read the current instructions.",
+          "Complete the application and pay only through the official channel.",
+          "Follow the official instructions for fingerprint capture and identity verification.",
+          "Use the official portal to check status or collection instructions."
+        ],
+        "sw": [
+          "Fungua huduma rasmi ya DCI/eCitizen na usome maelekezo ya sasa.",
+          "Jaza ombi na ulipe kupitia njia rasmi pekee.",
+          "Fuata maelekezo rasmi ya kuchukuliwa alama za vidole na uhakiki wa utambulisho.",
+          "Tumia tovuti rasmi kuangalia hali au maelekezo ya kuchukua cheti."
+        ]
+      },
+      "agency": "Directorate of Criminal Investigations (DCI)",
+      "url": "https://dci.go.ke/",
+      "applyUrl": "https://ecitizen.go.ke/",
+      "sourceLabel": "DCI / eCitizen official channels",
+      "status": "Verify current checklist",
+      "note": {
+        "en": "Applicant-category requirements and fingerprint arrangements should be confirmed in the current DCI portal.",
+        "sw": "Mahitaji kulingana na aina ya mwombaji na mpangilio wa alama za vidole uthibitishwe kwenye tovuti ya sasa ya DCI."
+      }
+    },
+    {
+      "id": "birth-certificate",
+      "category": "Birth & Death",
+      "icon": "👶",
+      "title": {
+        "en": "Birth certificate",
+        "sw": "Cheti cha kuzaliwa"
+      },
+      "summary": {
+        "en": "Apply for a birth certificate or check registration steps.",
+        "sw": "Omba cheti cha kuzaliwa au angalia hatua za usajili."
+      },
+      "documents": {
+        "en": [
+          "Birth notification or facility notification details, where applicable",
+          "Parents’ identity details/documents as requested",
+          "Application form and invoice generated by Civil Registration Services",
+          "Additional supporting records for late registration or special cases"
+        ],
+        "sw": [
+          "Taarifa ya kuzaliwa au taarifa kutoka kituo cha afya inapohitajika",
+          "Taarifa/nyaraka za utambulisho wa wazazi kama zitakavyoombwa",
+          "Fomu ya ombi na ankara kutoka Civil Registration Services",
+          "Nyaraka za ziada kwa usajili wa kuchelewa au hali maalumu"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Select the correct service: current birth, late birth, or correction of particulars.",
+          "Apply through the official Civil Registration Services/eCitizen portal.",
+          "Follow instructions to print the application/invoice and submit documents if requested.",
+          "Check status and collection instructions through the official channel."
+        ],
+        "sw": [
+          "Chagua huduma sahihi: kuzaliwa kwa sasa, usajili wa kuchelewa au kusahihisha taarifa.",
+          "Tuma ombi kupitia tovuti rasmi ya Civil Registration Services/eCitizen.",
+          "Fuata maelekezo ya kuchapisha ombi/ankara na kuwasilisha nyaraka ukitakiwa.",
+          "Angalia hali na maelekezo ya kuchukua kupitia njia rasmi."
+        ]
+      },
+      "agency": "Civil Registration Services",
+      "url": "https://crs.ecitizen.go.ke/",
+      "applyUrl": "https://crs.ecitizen.go.ke/",
+      "sourceLabel": "Civil Registration Services official portal",
+      "status": "Official source linked",
+      "note": {
+        "en": "The portal distinguishes birth registration types; use the exact category that matches the case.",
+        "sw": "Tovuti hutofautisha aina za usajili wa kuzaliwa; chagua aina inayolingana na hali yako."
+      }
+    },
+    {
+      "id": "late-birth",
+      "category": "Birth & Death",
+      "icon": "🧾",
+      "title": {
+        "en": "Late birth registration",
+        "sw": "Usajili wa kuzaliwa kwa kuchelewa"
+      },
+      "summary": {
+        "en": "For births reported more than six months after the date of birth.",
+        "sw": "Kwa kuzaliwa kulikoripotiwa zaidi ya miezi sita baada ya tarehe ya kuzaliwa."
+      },
+      "documents": {
+        "en": [
+          "Supporting evidence of birth and date, as required by Civil Registration Services",
+          "Parents’ identity details and records where applicable",
+          "Any additional evidence requested for late registration"
+        ],
+        "sw": [
+          "Ushahidi wa kuzaliwa na tarehe yake kama utakavyoombwa na Civil Registration Services",
+          "Taarifa na nyaraka za utambulisho wa wazazi inapohitajika",
+          "Ushahidi mwingine utakaoombwa kwa usajili wa kuchelewa"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Choose the late birth registration service on the official CRS portal.",
+          "Read the case-specific checklist before starting.",
+          "Submit the application and provide supporting records as directed.",
+          "Follow the official instructions for review and certificate collection."
+        ],
+        "sw": [
+          "Chagua huduma ya usajili wa kuzaliwa kwa kuchelewa kwenye tovuti rasmi ya CRS.",
+          "Soma orodha ya nyaraka ya hali yako kabla ya kuanza.",
+          "Wasilisha ombi na nyaraka za ushahidi kama utakavyoelekezwa.",
+          "Fuata maelekezo rasmi ya uhakiki na kuchukua cheti."
+        ]
+      },
+      "agency": "Civil Registration Services",
+      "url": "https://crs.ecitizen.go.ke/",
+      "applyUrl": "https://crs.ecitizen.go.ke/",
+      "sourceLabel": "Civil Registration Services official portal",
+      "status": "Official service listed",
+      "note": {
+        "en": "Late-registration evidence depends on the case. Confirm the complete list with CRS.",
+        "sw": "Ushahidi wa usajili wa kuchelewa hutegemea hali. Thibitisha orodha kamili kwa CRS."
+      }
+    },
+    {
+      "id": "death-certificate",
+      "category": "Birth & Death",
+      "icon": "🕊️",
+      "title": {
+        "en": "Death certificate",
+        "sw": "Cheti cha kifo"
+      },
+      "summary": {
+        "en": "Guide for current or replacement death certificate services.",
+        "sw": "Mwongozo wa cheti kipya au mbadala cha kifo."
+      },
+      "documents": {
+        "en": [
+          "Death notification or registration reference, where available",
+          "Applicant’s identification and relationship details if requested",
+          "Supporting records specified by Civil Registration Services"
+        ],
+        "sw": [
+          "Taarifa ya kifo au kumbukumbu ya usajili ikiwa inapatikana",
+          "Kitambulisho cha mwombaji na maelezo ya uhusiano ikiwa yataombwa",
+          "Nyaraka za ushahidi zitakazotajwa na Civil Registration Services"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Select the correct death certificate service for the county/event and request type.",
+          "Apply using the official CRS/eCitizen portal.",
+          "Provide the documents requested for the specific case.",
+          "Follow official instructions for processing and collection."
+        ],
+        "sw": [
+          "Chagua huduma sahihi ya cheti cha kifo kulingana na kaunti/tukio na aina ya ombi.",
+          "Tuma ombi kupitia CRS/eCitizen rasmi.",
+          "Wasilisha nyaraka zinazoombwa kwa hali husika.",
+          "Fuata maelekezo rasmi ya uchakataji na kuchukua cheti."
+        ]
+      },
+      "agency": "Civil Registration Services",
+      "url": "https://crs.ecitizen.go.ke/",
+      "applyUrl": "https://crs.ecitizen.go.ke/",
+      "sourceLabel": "Civil Registration Services official portal",
+      "status": "Official service listed",
+      "note": {
+        "en": "CRS has different flows depending on where the death occurred. Confirm the correct route first.",
+        "sw": "CRS ina michakato tofauti kulingana na mahali kifo kilitokea. Thibitisha njia sahihi kwanza."
+      }
+    },
+    {
+      "id": "driving-pdl",
+      "category": "Driving & Vehicles",
+      "icon": "🚘",
+      "title": {
+        "en": "Provisional driving licence",
+        "sw": "Leseni ya muda ya udereva"
+      },
+      "summary": {
+        "en": "Start the official process for learner-driver services.",
+        "sw": "Anza mchakato rasmi wa huduma za dereva mwanafunzi."
+      },
+      "documents": {
+        "en": [
+          "eCitizen account and identity details required by NTSA",
+          "Application details requested in the official portal",
+          "Payment confirmation, if a fee is displayed"
+        ],
+        "sw": [
+          "Akaunti ya eCitizen na taarifa za utambulisho zinazohitajika na NTSA",
+          "Taarifa za ombi zitakazoombwa kwenye tovuti rasmi",
+          "Uthibitisho wa malipo ikiwa ada itaonyeshwa"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Sign in to the official NTSA/eCitizen service.",
+          "Choose Provisional Driving Licence and follow the current prompts.",
+          "Pay only through the official payment flow, if required.",
+          "Download or print the issued document and follow learner-driver rules."
+        ],
+        "sw": [
+          "Ingia kwenye huduma rasmi ya NTSA/eCitizen.",
+          "Chagua Provisional Driving Licence na ufuate maelekezo ya sasa.",
+          "Lipa kupitia mfumo rasmi pekee ikiwa inahitajika.",
+          "Pakua au chapisha nyaraka iliyotolewa na ufuate sheria za dereva mwanafunzi."
+        ]
+      },
+      "agency": "National Transport and Safety Authority (NTSA)",
+      "url": "https://ntsa.ecitizen.go.ke/",
+      "applyUrl": "https://ntsa.ecitizen.go.ke/",
+      "sourceLabel": "NTSA official eCitizen portal",
+      "status": "Official service listed",
+      "note": {
+        "en": "The NTSA portal controls the current application fields and eligibility rules.",
+        "sw": "Tovuti ya NTSA ndiyo huonyesha sehemu za ombi na masharti ya sasa."
+      }
+    },
+    {
+      "id": "driving-test",
+      "category": "Driving & Vehicles",
+      "icon": "🛣️",
+      "title": {
+        "en": "Driving test booking",
+        "sw": "Kuweka nafasi ya mtihani wa udereva"
+      },
+      "summary": {
+        "en": "How to find the official driving test booking service.",
+        "sw": "Jinsi ya kupata huduma rasmi ya kuweka nafasi ya mtihani."
+      },
+      "documents": {
+        "en": [
+          "NTSA/eCitizen account and identity details",
+          "Relevant learner/provisional licence details if requested",
+          "Driving school or training details if requested by the portal"
+        ],
+        "sw": [
+          "Akaunti ya NTSA/eCitizen na taarifa za utambulisho",
+          "Taarifa za leseni ya mwanafunzi ikiwa zitaombwa",
+          "Taarifa za shule ya udereva au mafunzo ikiwa zitaombwa na tovuti"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Open the official NTSA service portal.",
+          "Select Driving Test Application and follow eligibility instructions.",
+          "Choose an available test option/date as displayed.",
+          "Keep the confirmation and follow instructions for the test centre."
+        ],
+        "sw": [
+          "Fungua tovuti rasmi ya huduma za NTSA.",
+          "Chagua Driving Test Application na ufuate masharti ya ustahiki.",
+          "Chagua chaguo/tarehe ya mtihani inayoonyeshwa.",
+          "Hifadhi uthibitisho na ufuate maelekezo ya kituo cha mtihani."
+        ]
+      },
+      "agency": "NTSA",
+      "url": "https://ntsa.ecitizen.go.ke/index.php?id=3",
+      "applyUrl": "https://ntsa.ecitizen.go.ke/",
+      "sourceLabel": "NTSA official service catalogue",
+      "status": "Official service listed",
+      "note": {
+        "en": "Confirm available test centres, dates, and prerequisites in the portal.",
+        "sw": "Thibitisha vituo, tarehe na masharti ya awali kwenye tovuti."
+      }
+    },
+    {
+      "id": "licence-renewal",
+      "category": "Driving & Vehicles",
+      "icon": "🔄",
+      "title": {
+        "en": "Driving licence renewal",
+        "sw": "Kufanya upya leseni ya udereva"
+      },
+      "summary": {
+        "en": "Renewal route and preparation checklist.",
+        "sw": "Njia ya kufanya upya leseni na orodha ya maandalizi."
+      },
+      "documents": {
+        "en": [
+          "Existing driving licence details",
+          "National ID/eCitizen account details",
+          "Any additional information requested by NTSA"
+        ],
+        "sw": [
+          "Taarifa za leseni ya udereva iliyopo",
+          "Taarifa za kitambulisho/akaunti ya eCitizen",
+          "Taarifa nyingine zitakazoombwa na NTSA"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Sign in to the official NTSA/eCitizen portal.",
+          "Choose Driving Licence Renewal and review the current term/options.",
+          "Pay using the official portal if required.",
+          "Save the renewal slip or confirmation and follow the portal's instructions."
+        ],
+        "sw": [
+          "Ingia kwenye tovuti rasmi ya NTSA/eCitizen.",
+          "Chagua Driving Licence Renewal na kagua muda/chaguo zinazopatikana.",
+          "Lipa kupitia tovuti rasmi ikiwa inahitajika.",
+          "Hifadhi hati au uthibitisho wa kufanya upya na ufuate maelekezo ya tovuti."
+        ]
+      },
+      "agency": "NTSA",
+      "url": "https://ntsa.ecitizen.go.ke/index.php?id=3",
+      "applyUrl": "https://ntsa.ecitizen.go.ke/",
+      "sourceLabel": "NTSA official service catalogue",
+      "status": "Official service listed",
+      "note": {
+        "en": "Licence products and renewal periods can change; confirm the option shown for your licence.",
+        "sw": "Aina za leseni na muda wa kufanya upya unaweza kubadilika; thibitisha chaguo linaloonyeshwa kwa leseni yako."
+      }
+    },
+    {
+      "id": "kra-pin",
+      "category": "Tax & Business",
+      "icon": "🧮",
+      "title": {
+        "en": "KRA PIN registration",
+        "sw": "Usajili wa PIN ya KRA"
+      },
+      "summary": {
+        "en": "Find the official route for KRA PIN registration and tax services.",
+        "sw": "Pata njia rasmi ya kusajili PIN ya KRA na huduma za kodi."
+      },
+      "documents": {
+        "en": [
+          "National ID details for an individual Kenyan applicant",
+          "Valid email and phone details as requested by KRA",
+          "Additional supporting details depending on applicant type"
+        ],
+        "sw": [
+          "Taarifa za kitambulisho cha taifa kwa mwombaji Mkenya binafsi",
+          "Barua pepe na simu halali kama KRA itakavyoomba",
+          "Taarifa za ziada kulingana na aina ya mwombaji"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Open the official KRA website/iTax service.",
+          "Select the correct taxpayer category and registration service.",
+          "Complete the requested information carefully.",
+          "Save the PIN certificate and keep your login details private."
+        ],
+        "sw": [
+          "Fungua tovuti rasmi ya KRA/iTax.",
+          "Chagua aina sahihi ya mlipa kodi na huduma ya usajili.",
+          "Jaza taarifa zinazohitajika kwa makini.",
+          "Hifadhi cheti cha PIN na linda taarifa zako za kuingia."
+        ]
+      },
+      "agency": "Kenya Revenue Authority (KRA)",
+      "url": "https://www.kra.go.ke/",
+      "applyUrl": "https://itax.kra.go.ke/",
+      "sourceLabel": "KRA official website and iTax",
+      "status": "Official portal linked",
+      "note": {
+        "en": "Requirements differ for individuals, companies, and non-citizens. Use the correct category.",
+        "sw": "Mahitaji hutofautiana kwa watu binafsi, kampuni na wasio raia. Tumia aina sahihi."
+      }
+    },
+    {
+      "id": "tax-returns",
+      "category": "Tax & Business",
+      "icon": "📊",
+      "title": {
+        "en": "File individual income tax returns",
+        "sw": "Kuwasilisha marejesho ya kodi ya mtu binafsi"
+      },
+      "summary": {
+        "en": "Preparation guide for individual tax return filing.",
+        "sw": "Mwongozo wa kuandaa na kuwasilisha marejesho ya kodi ya mtu binafsi."
+      },
+      "documents": {
+        "en": [
+          "KRA PIN and iTax access",
+          "Income records for the relevant tax year",
+          "Employment documents such as P9, if employed",
+          "Allowable deduction/supporting records relevant to your situation"
+        ],
+        "sw": [
+          "PIN ya KRA na uwezo wa kuingia iTax",
+          "Rekodi za mapato za mwaka husika wa kodi",
+          "Nyaraka za ajira kama P9 ikiwa umeajiriwa",
+          "Rekodi za makato yanayokubalika zinazohusu hali yako"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Check KRA's current filing guidance and deadline.",
+          "Sign in to iTax and select the correct return type and tax year.",
+          "Enter information using your supporting records.",
+          "Submit and save the acknowledgement/receipt; seek KRA guidance if unsure."
+        ],
+        "sw": [
+          "Angalia mwongozo na tarehe ya mwisho ya KRA ya sasa.",
+          "Ingia iTax na uchague aina sahihi ya marejesho na mwaka wa kodi.",
+          "Weka taarifa kwa kutumia rekodi zako.",
+          "Wasilisha na uhifadhi uthibitisho; omba mwongozo wa KRA ikiwa huna uhakika."
+        ]
+      },
+      "agency": "KRA",
+      "url": "https://www.kra.go.ke/",
+      "applyUrl": "https://itax.kra.go.ke/",
+      "sourceLabel": "KRA official website and iTax",
+      "status": "Official portal linked",
+      "note": {
+        "en": "Tax rules and deadlines can change. This guide is not tax advice.",
+        "sw": "Sheria na tarehe za kodi zinaweza kubadilika. Mwongozo huu si ushauri wa kodi."
+      }
+    },
+    {
+      "id": "business-registration",
+      "category": "Tax & Business",
+      "icon": "🏢",
+      "title": {
+        "en": "Register a business name",
+        "sw": "Kusajili jina la biashara"
+      },
+      "summary": {
+        "en": "Where to start with business-name registration.",
+        "sw": "Mahali pa kuanzia kusajili jina la biashara."
+      },
+      "documents": {
+        "en": [
+          "Applicant identity and contact details",
+          "Proposed business name(s) and business activity details",
+          "Additional details requested by the Business Registration Service portal"
+        ],
+        "sw": [
+          "Taarifa za utambulisho na mawasiliano ya mwombaji",
+          "Jina/jina mbadala la biashara na maelezo ya shughuli",
+          "Taarifa za ziada zitakazoombwa na tovuti ya Business Registration Service"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Open the official Business Registration Service portal via eCitizen.",
+          "Choose the relevant business registration service.",
+          "Enter the requested details and follow the name reservation/application steps.",
+          "Pay only through the official portal and save the generated documents."
+        ],
+        "sw": [
+          "Fungua tovuti rasmi ya Business Registration Service kupitia eCitizen.",
+          "Chagua huduma husika ya usajili wa biashara.",
+          "Weka taarifa zinazohitajika na ufuate hatua za kuhifadhi jina/kuomba usajili.",
+          "Lipa kupitia tovuti rasmi pekee na uhifadhi nyaraka zinazotolewa."
+        ]
+      },
+      "agency": "Business Registration Service (BRS)",
+      "url": "https://brs.go.ke/",
+      "applyUrl": "https://brs.ecitizen.go.ke/",
+      "sourceLabel": "Business Registration Service official website",
+      "status": "Official portal linked",
+      "note": {
+        "en": "A business name is not the same as incorporating a limited company. Select the correct legal form.",
+        "sw": "Jina la biashara si sawa na kusajili kampuni yenye dhima ndogo. Chagua aina sahihi ya kisheria."
+      }
+    },
+    {
+      "id": "marriage-certificate",
+      "category": "Family & Civil Records",
+      "icon": "💍",
+      "title": {
+        "en": "Marriage registration / certificate",
+        "sw": "Usajili wa ndoa / cheti cha ndoa"
+      },
+      "summary": {
+        "en": "Find the official route for marriage registration and certificates.",
+        "sw": "Pata njia rasmi ya kusajili ndoa na kupata cheti."
+      },
+      "documents": {
+        "en": [
+          "Identity documents for the parties",
+          "Documents proving the applicable marriage process/type",
+          "Witness details and notices/forms as required by the Registrar of Marriages",
+          "Additional documents specified for civil, Christian, customary, or other applicable process"
+        ],
+        "sw": [
+          "Nyaraka za utambulisho wa wahusika",
+          "Nyaraka zinazoonyesha aina ya mchakato wa ndoa husika",
+          "Taarifa za mashahidi na matangazo/fomu kama Msajili wa Ndoa atakavyoomba",
+          "Nyaraka za ziada kulingana na ndoa ya kiraia, Kikristo, kimila au mchakato mwingine husika"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Identify the applicable marriage type and read the official Registrar of Marriages guidance.",
+          "Use the official government portal or contact the Registrar for the current checklist.",
+          "Submit notices/forms and supporting documents as instructed.",
+          "Follow official appointment, ceremony, registration, and certificate steps."
+        ],
+        "sw": [
+          "Tambua aina ya ndoa na usome mwongozo rasmi wa Msajili wa Ndoa.",
+          "Tumia tovuti rasmi ya serikali au wasiliana na Msajili kupata orodha ya sasa.",
+          "Wasilisha matangazo/fomu na nyaraka za ushahidi kama utakavyoelekezwa.",
+          "Fuata hatua rasmi za miadi, sherehe, usajili na cheti."
+        ]
+      },
+      "agency": "Office of the Attorney General / Registrar of Marriages",
+      "url": "https://www.statelaw.go.ke/",
+      "applyUrl": "https://ecitizen.go.ke/",
+      "sourceLabel": "Government of Kenya portal directory",
+      "status": "Verify exact category",
+      "note": {
+        "en": "Marriage requirements differ by type and circumstances; confirm the exact process with the Registrar.",
+        "sw": "Mahitaji ya ndoa hutofautiana kwa aina na hali; thibitisha mchakato husika kwa Msajili."
+      }
+    },
+    {
+      "id": "land-search",
+      "category": "Land & Property",
+      "icon": "🏡",
+      "title": {
+        "en": "Land search",
+        "sw": "Utafutaji wa taarifa za ardhi"
+      },
+      "summary": {
+        "en": "Start an official land search and understand what to prepare.",
+        "sw": "Anza utafutaji rasmi wa ardhi na ujue cha kuandaa."
+      },
+      "documents": {
+        "en": [
+          "Land title/parcel number and location details",
+          "Applicant eCitizen account and identity details",
+          "Any supporting authority/consent requested by the official service"
+        ],
+        "sw": [
+          "Nambari ya hati/kipande cha ardhi na maelezo ya eneo",
+          "Akaunti ya eCitizen na taarifa za utambulisho wa mwombaji",
+          "Idhini/nyaraka za ziada zitakazoombwa na huduma rasmi"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Open the official Ministry of Lands / eCitizen service.",
+          "Choose the land search service and enter the parcel/title details carefully.",
+          "Pay through the official payment flow if required.",
+          "Save the official search result and verify any legal decision with a qualified professional."
+        ],
+        "sw": [
+          "Fungua huduma rasmi ya Wizara ya Ardhi/eCitizen.",
+          "Chagua huduma ya utafutaji na uweke maelezo ya kipande/hati kwa makini.",
+          "Lipa kupitia mfumo rasmi ikiwa inahitajika.",
+          "Hifadhi matokeo rasmi na thibitisha maamuzi ya kisheria na mtaalamu anayestahili."
+        ]
+      },
+      "agency": "Ministry of Lands",
+      "url": "https://lands.go.ke/",
+      "applyUrl": "https://ecitizen.go.ke/",
+      "sourceLabel": "Government of Kenya / Ministry of Lands",
+      "status": "Verify current portal route",
+      "note": {
+        "en": "Land services vary by parcel, registry, and transaction. Do not rely on this guide as a legal title opinion.",
+        "sw": "Huduma za ardhi hutegemea kipande, sajili na muamala. Usichukulie mwongozo huu kama maoni ya kisheria kuhusu umiliki."
+      }
+    },
+    {
+      "id": "eta",
+      "category": "Travel",
+      "icon": "🌍",
+      "title": {
+        "en": "Electronic Travel Authorisation (eTA)",
+        "sw": "Idhini ya kielektroniki ya kusafiri (eTA)"
+      },
+      "summary": {
+        "en": "Official travel authorisation information for eligible visitors to Kenya.",
+        "sw": "Taarifa rasmi za idhini ya kusafiri kwa wageni wanaostahiki kuingia Kenya."
+      },
+      "documents": {
+        "en": [
+          "Valid passport details",
+          "Travel itinerary and accommodation/contact details requested by the portal",
+          "Payment method and any supporting information required for the traveller's category"
+        ],
+        "sw": [
+          "Taarifa za pasipoti halali",
+          "Ratiba ya safari na maelezo ya malazi/mawasiliano yatakayoombwa",
+          "Njia ya malipo na taarifa za ziada zinazohitajika kwa aina ya msafiri"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Check whether an eTA is required for your nationality and travel situation.",
+          "Apply only through the official Kenya eTA portal.",
+          "Upload the requested information and pay through the official flow.",
+          "Wait for the official decision before travelling; check validity and entry conditions."
+        ],
+        "sw": [
+          "Angalia kama eTA inahitajika kwa uraia na hali yako ya safari.",
+          "Tuma ombi kupitia tovuti rasmi ya eTA ya Kenya pekee.",
+          "Pakia taarifa zinazoombwa na ulipe kupitia mfumo rasmi.",
+          "Subiri uamuzi rasmi kabla ya kusafiri; kagua uhalali na masharti ya kuingia."
+        ]
+      },
+      "agency": "Directorate of Immigration Services",
+      "url": "https://immigration.go.ke/",
+      "applyUrl": "https://www.etakenya.go.ke/",
+      "sourceLabel": "Directorate of Immigration Services / official eTA portal",
+      "status": "Official portal linked",
+      "note": {
+        "en": "Entry rules and exemptions can change; check the official portal before booking or travelling.",
+        "sw": "Sheria za kuingia na misamaha zinaweza kubadilika; kagua tovuti rasmi kabla ya kuweka nafasi au kusafiri."
+      }
+    },
+    {
+      "id": "student-pass",
+      "category": "Immigration",
+      "icon": "🎓",
+      "title": {
+        "en": "Student pass (foreign students in Kenya)",
+        "sw": "Student pass (wanafunzi wa kigeni Kenya)"
+      },
+      "summary": {
+        "en": "For foreign students admitted to an education or training institution in Kenya.",
+        "sw": "Kwa wanafunzi wa kigeni waliokubaliwa katika taasisi ya elimu au mafunzo nchini Kenya."
+      },
+      "documents": {
+        "en": [
+          "Admission letter from the education/training institution",
+          "Passport and applicant details",
+          "Institution/supporting documents and forms specified by Immigration",
+          "Any additional documents shown on the official portal"
+        ],
+        "sw": [
+          "Barua ya udahili kutoka taasisi ya elimu/mafunzo",
+          "Pasipoti na taarifa za mwombaji",
+          "Nyaraka na fomu za taasisi/ushahidi zitakazotajwa na Uhamiaji",
+          "Nyaraka nyingine zitakazoonyeshwa kwenye tovuti rasmi"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Check the official Immigration student pass requirements.",
+          "Prepare the admission letter and the documents listed for your case.",
+          "Apply through the official eCitizen Immigration portal.",
+          "Follow the official instructions for review, biometrics, and issuance."
+        ],
+        "sw": [
+          "Angalia mahitaji rasmi ya student pass ya Uhamiaji.",
+          "Andaa barua ya udahili na nyaraka zilizoorodheshwa kwa hali yako.",
+          "Tuma ombi kupitia tovuti rasmi ya eCitizen Immigration.",
+          "Fuata maelekezo rasmi ya uhakiki, biometriki na kutolewa kwa pass."
+        ]
+      },
+      "agency": "Directorate of Immigration Services",
+      "url": "https://dis.ecitizen.go.ke/",
+      "applyUrl": "https://dis.ecitizen.go.ke/",
+      "sourceLabel": "Directorate of Immigration Services official portal",
+      "status": "Official service listed",
+      "note": {
+        "en": "This service is for foreign students; Kenyan citizens should not use this guide for a student pass.",
+        "sw": "Huduma hii ni ya wanafunzi wa kigeni; raia wa Kenya hawapaswi kutumia mwongozo huu kwa student pass."
+      }
+    },
+    {
+      "id": "police-abstract",
+      "category": "Police & Justice",
+      "icon": "👮",
+      "title": {
+        "en": "Police abstract",
+        "sw": "Police abstract / taarifa ya polisi"
+      },
+      "summary": {
+        "en": "How to find the official process for recording/reporting an incident and obtaining an abstract.",
+        "sw": "Jinsi ya kupata mchakato rasmi wa kuripoti tukio na kupata abstract."
+      },
+      "documents": {
+        "en": [
+          "Identity details",
+          "Incident details including date, location, and description",
+          "Any evidence or reference number available",
+          "Additional information requested by the police station or official service"
+        ],
+        "sw": [
+          "Taarifa za utambulisho",
+          "Maelezo ya tukio, tarehe, eneo na kilichotokea",
+          "Ushahidi au nambari ya kumbukumbu ikiwa inapatikana",
+          "Taarifa nyingine zitakazoombwa na kituo cha polisi au huduma rasmi"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Report the incident through the appropriate official police channel or station.",
+          "Provide accurate incident details and supporting information.",
+          "Ask the officer for the reference/abstract process applicable to the incident.",
+          "Keep the issued reference and confirm whether a fee or further step applies through official channels."
+        ],
+        "sw": [
+          "Ripoti tukio kupitia njia rasmi ya polisi au kituo kinachofaa.",
+          "Toa maelezo sahihi ya tukio na taarifa za ushahidi.",
+          "Muulize afisa kuhusu mchakato wa kumbukumbu/abstract unaohusika.",
+          "Hifadhi kumbukumbu iliyotolewa na uthibitishe kama kuna ada au hatua nyingine kupitia njia rasmi."
+        ]
+      },
+      "agency": "National Police Service",
+      "url": "https://www.nationalpolice.go.ke/",
+      "status": "Verify locally",
+      "note": {
+        "en": "Procedure can depend on the incident and station. This app does not replace reporting directly to police.",
+        "sw": "Mchakato unaweza kutegemea tukio na kituo. Programu hii haichukui nafasi ya kuripoti moja kwa moja kwa polisi."
+      }
+    },
+    {
+      "id": "huduma-centre",
+      "category": "Where to go",
+      "icon": "📍",
+      "title": {
+        "en": "Find a Huduma Centre",
+        "sw": "Tafuta Huduma Centre"
+      },
+      "summary": {
+        "en": "Find a centre and confirm which services are offered there.",
+        "sw": "Tafuta kituo na uthibitishe huduma zinazotolewa hapo."
+      },
+      "documents": {
+        "en": [
+          "Know the service you need and your county/town",
+          "Carry the service-specific documents listed in the relevant guide",
+          "Appointment/reference details if the agency requires them"
+        ],
+        "sw": [
+          "Jua huduma unayohitaji na kaunti/mji wako",
+          "Beba nyaraka maalumu zilizoorodheshwa kwenye mwongozo wa huduma",
+          "Maelezo ya miadi/kumbukumbu ikiwa idara inayahitaji"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Open the official Huduma Kenya website and choose Find a Centre / Find a Service.",
+          "Contact or check the selected centre to confirm the service is available there.",
+          "Check opening hours and appointment rules before travelling.",
+          "Carry originals and copies only as required by the service."
+        ],
+        "sw": [
+          "Fungua tovuti rasmi ya Huduma Kenya na uchague Tafuta Kituo/Huduma.",
+          "Wasiliana na kituo ulichochagua kuthibitisha huduma inapatikana hapo.",
+          "Angalia saa za kazi na masharti ya miadi kabla ya kusafiri.",
+          "Beba nyaraka halisi na nakala pale tu zinapohitajika."
+        ]
+      },
+      "agency": "Huduma Kenya",
+      "url": "https://www.hudumakenya.go.ke/",
+      "sourceLabel": "Huduma Kenya official portal",
+      "status": "Official portal linked",
+      "note": {
+        "en": "Not every service is available at every centre. Confirm first; Huduma Kenya lists the help line 1919.",
+        "sw": "Si kila huduma inapatikana katika kila kituo. Thibitisha kwanza; Huduma Kenya inaorodhesha nambari ya msaada 1919."
+      }
+    },
+    {
+      "id": "digital-id",
+      "category": "Identity",
+      "icon": "📱",
+      "title": {
+        "en": "Digital ID / eCitizen account",
+        "sw": "Digital ID / akaunti ya eCitizen"
+      },
+      "summary": {
+        "en": "Get started with the official digital identity and government-service account.",
+        "sw": "Anza kutumia utambulisho wa kidijitali na akaunti rasmi ya huduma za serikali."
+      },
+      "documents": {
+        "en": [
+          "National ID or the identity information required for your user category",
+          "Active phone number and other verification details requested by eCitizen",
+          "Secure access to your own email/phone"
+        ],
+        "sw": [
+          "Kitambulisho cha taifa au taarifa za utambulisho zinazohitajika kwa aina yako ya mtumiaji",
+          "Nambari ya simu inayotumika na taarifa nyingine za uthibitishaji zitakazoombwa na eCitizen",
+          "Uwezo salama wa kufikia barua pepe/simu yako"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Use the official eCitizen website or official mobile app listing.",
+          "Register or sign in using your own details.",
+          "Complete identity verification steps shown by the platform.",
+          "Never share your password, PIN, OTP, or wallet credentials with another person."
+        ],
+        "sw": [
+          "Tumia tovuti rasmi ya eCitizen au ukurasa rasmi wa programu ya simu.",
+          "Jisajili au ingia kwa taarifa zako mwenyewe.",
+          "Kamilisha hatua za uthibitishaji zinazoonyeshwa na mfumo.",
+          "Usimpe mtu mwingine nenosiri, PIN, OTP au taarifa za wallet."
+        ]
+      },
+      "agency": "eCitizen / ICT Authority",
+      "url": "https://ecitizen.go.ke/",
+      "sourceLabel": "eCitizen and ICT Authority official information",
+      "status": "Official portal linked",
+      "note": {
+        "en": "Use only official domains and app listings. Huduma Guide does not collect government login credentials.",
+        "sw": "Tumia vikoa na kurasa rasmi pekee. Huduma Guide haikusanyi taarifa za kuingia kwenye akaunti za serikali."
+      }
+    },
+    {
+      "id": "academic-authentication",
+      "category": "Education & Documents",
+      "icon": "🎓",
+      "title": {
+        "en": "Authenticate academic certificates",
+        "sw": "Kuthibitisha vyeti vya masomo"
+      },
+      "summary": {
+        "en": "For official authentication/legalisation services where applicable.",
+        "sw": "Kwa huduma rasmi za uthibitishaji/uhalalishaji pale zinapohitajika."
+      },
+      "documents": {
+        "en": [
+          "Original certificate and supporting academic records as requested",
+          "Applicant identity details",
+          "Application form/invoice and any supporting evidence required by the responsible ministry"
+        ],
+        "sw": [
+          "Cheti halisi na rekodi za masomo zitakazoombwa",
+          "Taarifa za utambulisho wa mwombaji",
+          "Fomu/ankara ya ombi na ushahidi mwingine unaohitajika na wizara husika"
+        ]
+      },
+      "steps": {
+        "en": [
+          "Confirm which authority must authenticate the certificate for your intended use.",
+          "Use the relevant official government portal and read its category-specific requirements.",
+          "Submit the required documents and pay only through official channels.",
+          "Keep the authentication result and verify any receiving institution's separate rules."
+        ],
+        "sw": [
+          "Thibitisha mamlaka inayopaswa kuthibitisha cheti kwa matumizi unayokusudia.",
+          "Tumia tovuti rasmi husika na usome mahitaji ya aina yako.",
+          "Wasilisha nyaraka na ulipe kupitia njia rasmi pekee.",
+          "Hifadhi matokeo ya uthibitishaji na angalia masharti tofauti ya taasisi itakayopokea cheti."
+        ]
+      },
+      "agency": "Ministry of Foreign and Diaspora Affairs / relevant authority",
+      "url": "https://mfa.ecitizen.go.ke/",
+      "applyUrl": "https://mfa.ecitizen.go.ke/",
+      "sourceLabel": "Ministry of Foreign and Diaspora Affairs eCitizen services",
+      "status": "Official service listed",
+      "note": {
+        "en": "Authentication is not the same as replacing a lost certificate or academic equivalency. Confirm the correct service.",
+        "sw": "Uthibitishaji si sawa na kubadilisha cheti kilichopotea au kutathmini usawa wa elimu. Thibitisha huduma sahihi."
+      }
+    }
+  ],
+  "sourcePolicy": "Only publish final document requirements as verified when confirmed from a current official agency page. Some checklists are intentionally marked verify because requirements depend on case and portal instructions."
+}
